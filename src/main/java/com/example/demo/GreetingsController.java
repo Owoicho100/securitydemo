@@ -8,6 +8,7 @@ public class GreetingsController {
 
     @GetMapping("/hello")
     public String sayHello(){
+        System.out.println("It's a new day!");
         return "Hello, World!";
     }
 }
