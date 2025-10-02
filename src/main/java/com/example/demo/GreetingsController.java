@@ -8,7 +8,7 @@ public class GreetingsController {
 
     @GetMapping("/hello")
     public String sayHello(){
-        System.out.println("It's a new dad!");
+        System.out.println("Feature changes for PR!");
         return "Hello, World!";
     }
 }
