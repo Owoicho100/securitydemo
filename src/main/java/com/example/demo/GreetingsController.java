@@ -11,4 +11,10 @@ public class GreetingsController {
         System.out.println("Feature changes for PR!");
         return "Hello, World!";
     }
+
+    @GetMapping("/hi")
+    public String sayHi(){
+        System.out.println("It's a new day!");
+        return "Hello, World!";
+    }
 }
